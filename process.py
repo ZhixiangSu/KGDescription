@@ -7,7 +7,7 @@ dataset='WN18RR-subset'
 #         new_line=line[0]+"\t"+" ".join(line[1:])
 #         f2.write(new_line)
 
-with open(os.path.join(f'save/{dataset}/', "entity2textWikipedia.txt"), 'r', encoding='utf-8') as f1, \
+with open(os.path.join(f'save/{dataset}/', "entity2textGoogleWikipedia.txt"), 'r', encoding='utf-8') as f1, \
     open(os.path.join(f'data/{dataset}/', "entity2text.txt"), 'r', encoding='utf-8') as f2:
     i=0
     for line1,line2 in zip(f1,f2):

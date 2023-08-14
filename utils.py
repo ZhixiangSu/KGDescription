@@ -48,7 +48,7 @@ def getFromGoogleWikipediaAPI(query_ids,save_dir,Google_API_key,Google_cx,check_
                 file=sys.stdout, bar_format="{l_bar}%s{bar}%s{r_bar}" % (Fore.GREEN, Fore.RESET))
     if not os.path.exists(save_dir):
         os.makedirs(save_dir)
-    continue_num = 9931
+    continue_num = 40835
     pbar.update(continue_num)
     with open(os.path.join(save_dir, "entity2textGoogleWikipedia.txt"), 'a', encoding='utf-8') as f1:
         for entity, name in query_ids[continue_num:]:
@@ -73,6 +73,7 @@ def getFromGoogleWikipediaAPI(query_ids,save_dir,Google_API_key,Google_cx,check_
             else:
                 s = urllib.parse.unquote(r['items'][0]['link']).split("/")[-1]
                 s = s.replace("_"," ")
+            s = s[:300]
             auto_suggest = False
             wikipedia.API_URL = 'http://en.wiktionary.org/w/api.php'
             keywords, suggestion = wikipedia.search(s, suggestion=True)

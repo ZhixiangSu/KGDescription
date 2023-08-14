@@ -27,7 +27,7 @@ entities=load_entities(dataset,data_dir)
 # getFromOpenAI(key,entities,save_dir)
 # print()
 
-key= open('.api_key_Google').read()
+key= open('.api_key_Google2').read()
 cx=open('.cx_google_wiktionary').read()
 
 
