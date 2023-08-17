@@ -1,7 +1,7 @@
 # KGDescription
 
 
-This repository serves as an automatic detailed description generator for Knowledge Graphs (KGs). It is a pivotal component within the [Anchoring Path Sentence Transformer (APST)](https://github.com/AAAI2024AnonymousSubmission13023/APST) detailed description generation process.
+This repository serves as an automatic detailed description generator for Knowledge Graphs (KGs). It is a pivotal component within the [Anchoring Path Sentence Transformer (APST)](https://github.com/AAAI2024AnonymousSubmission13023/APST) detailed description retrieval process.
 
 ## Supported Datasets
 
