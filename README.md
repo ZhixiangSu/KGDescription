@@ -28,9 +28,9 @@ KGDescription utilizes various sources to generate descriptions:
 
 Please note that certain sources require additional API keys, which must be provided in the following files:
 
-- `.api_key_google`: Obtain this API key by referring to the official documentation: [Google Custom Search API](https://developers.google.com/custom-search/v1/overview)
-- `.cx_google`: Create a custom search engine [here](https://programmablesearchengine.google.com/controlpanel/all)
-- `.api_key_openAI`: Generate an API key from OpenAI [here](https://platform.openai.com/account/api-keys)
+- `.api_key_google`: Obtain this API key by referring to the official documentation: [Google Custom Search API](https://developers.google.com/custom-search/v1/overview).
+- `.cx_google`: Create a custom search engine [here](https://programmablesearchengine.google.com/controlpanel/all).
+- `.api_key_openAI`: Generate an API key from OpenAI [here](https://platform.openai.com/account/api-keys).
 
 Be aware that these API keys may involve costs. Please manage your usage responsibly.
 
